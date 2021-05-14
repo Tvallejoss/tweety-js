@@ -66,7 +66,11 @@ for (let i = 0; i < 10; i++) {
     module.exports.add(getFakeName(), getFakeTweet());
 }
 
-console.log(data) 
+module.exports.add("tomas", "hola como va");
+console.log(module.exports.find({name: 'tomas'}))
+//console.log(data) 
+
+
 
 /*
 var objects = [{ 'a': 1 }, { 'b': 2 }];
